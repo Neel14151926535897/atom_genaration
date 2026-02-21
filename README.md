@@ -1,4 +1,4 @@
-# atom_genaration
+# atom genaration
 a code that that visualizes standard but acuate model of atoms on zoom and atomic number 
 # how to install
 1.Run ```git clone https://github.com/Neel14151926535897/atom_genaration.git``` and ```cd atom_genaration```
