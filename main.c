@@ -92,7 +92,7 @@ float emitAngle = -1;
 int main(int argc, char** argv) { 
     int element_number = (argc >= 2) ? q_atoi(argv[1]) : 1;
     int isotope = (argc >=4) ? q_atoi(argv[2]) : -1;
-    float final_scale = (argc >= 3) ? q_atof(argv[3]) : 50.0f; 
+    float final_scale = (argc == 3) ? q_atof(argv[2]):(argc == 3) ? q_atof(argv[3]): 50.0f; 
     atom he = define(element_number, -1);
     float angle = 0.0f;
     float speed = 1.0f;
@@ -112,3 +112,4 @@ int main(int argc, char** argv) {
     CloseWindow();
     return 0;
 }
+
