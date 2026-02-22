@@ -8,3 +8,6 @@ a code that that visualizes standard but acuate model of atoms on zoom and atomi
 3.[Install upx](https://github.com/upx/upx/releases/tag/v5.1.0) and copy upx.exe to the the atom_genration folder  or add it to path in enviroment variables
 
 4.Run the ```build.bat``` file it will compile and show example genaration for Oganesson
+
+# how to use
+once installed you can use ```atom <atomic number> <zoom>``` or ```atom <atomic number> <isotope> <zoom>``` 
